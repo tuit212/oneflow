@@ -1,0 +1,52 @@
+.seamless-section{
+    margin-bottom: 80px;
+}
+.seamless{
+    @include center(space-between);
+}
+.seamless-content{
+    width: 400px;
+}
+.seamless-content > h2{
+    font-weight: 400;
+    line-height: 72px;
+    font-size: 72px;
+    color: #013A4C;
+    letter-spacing: 0.4px;
+}
+.seamless-content > p{
+    margin: 30px 0;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 21px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #013A4C;
+}
+.seamless-content > a{
+    display: block;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    background: #FFD063;
+    border-radius: 4px;
+    border: 1px solid #FFD063;
+    font-family: 'Work Sans' , sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #013A4C;
+    transition: all 0.5s linear;
+}
+.seamless-content > a:hover{
+    background-color: transparent;
+    color: #FFD063;
+}
+.seamless-picture__list{
+    @include center(none);
+}
+.seamless-picture__item + .seamless-picture__item{
+    margin-left: 124px;
+}
+.seamless-picture__mt {
+    margin-top: 124px;
+}

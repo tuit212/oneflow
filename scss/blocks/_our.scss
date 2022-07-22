@@ -1,0 +1,113 @@
+.our-section{
+    margin: 50px 0 303px 0;
+}
+.our__top{
+    @include center(space-between);
+}
+.our__top > h2{
+    font-weight: 700;
+    line-height: 54px;
+    font-size: 48px;
+    color: #013A4C;
+    letter-spacing: 0.4px;
+}
+.our__top > a{
+    display: block;
+    background: #FFD063;
+    border-radius: 4px;
+    border: 1px solid #FFD063;
+    width: 146px;
+    padding: 15px 0;
+    text-align: center;
+    font-family: 'Work Sans' , sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #013a4c;
+    transition: all 0.5s linear;
+}
+.our__top > a:hover{
+    background-color: transparent;
+    color: #FFD063;
+}
+.our__list{
+    margin-top: 75px;
+    flex-wrap: wrap;
+    @include center(space-between);
+}
+.our__item{
+    @include center(space-between);
+}
+.our__content{
+    padding-top: 48px;
+    padding-left: 32px;
+    padding-bottom: 25px;
+    width: 420px;
+}
+.our__item:nth-child(1){
+    background: #F2DCE4;
+    border-radius: 8px;
+    width: 100%;
+}
+.our__content-links{
+    display: block;
+    width: 51px;
+    padding: 4px 0;
+    background: #B73D8B;
+    border: 1px solid #B73D8B;
+    border-radius: 2px;
+    font-family: 'Work Sans';
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 400;
+    color: #F2DCE4;
+    text-align: center;
+    transition: all 0.5s linear;
+}
+.our__content-links:hover{
+    background-color: transparent;
+    color: #B73D8B;
+}
+.our__content-subtitle{
+    margin: 63px 0 88px 0;
+    font-weight: 400;
+    line-height: 54px;
+    font-size: 48px;
+    color: #013A4C;
+    letter-spacing: 0.4px;
+}
+.our__content-paragrif{
+    font-family: 'Work Sans';
+    font-size: 11px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #013A4C;
+}
+.our__content-paragrif > span{
+    margin-left: 15px;
+}
+.our__item:nth-child(2){
+    margin-top: 24px;
+    width: 368px;
+    flex-direction: column;
+    background-color: #013A4C;
+    border-radius: 8px;
+}
+.our__item-imges{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+.our__item:nth-child(3){
+    margin-top: 24px;
+    width: 368px;
+    flex-direction: column;
+    background: #0F5987;
+    border-radius: 8px;
+}
+.our__item:nth-child(4){
+    margin-top: 24px;
+    width: 368px;
+    flex-direction: column;
+    background: #F2DCE4;
+    border-radius: 8px;
+}

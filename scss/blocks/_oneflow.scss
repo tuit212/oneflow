@@ -1,0 +1,9 @@
+.oneflow-section{
+    margin: 20px 0 130px 0;
+}
+.oneflow__list{
+    @include center(space-between);
+}
+.oneflow__item{
+    width: 48%;
+}

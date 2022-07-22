@@ -1,0 +1,46 @@
+.eyes-section{
+    padding: 295px 0 370px 0;
+    background-image: url("../../img/eyes.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.eyes__content{
+    width: 651px;
+}
+.eyes__content > h2{
+    margin-bottom: 31px;
+    font-weight: 700;
+    line-height: 78px;
+    font-size: 73px;
+    letter-spacing: 2px;
+    color: #F2DCE4;
+}
+.eyes__content > p{
+    font-family: 'Work Sans' , sans-serif;
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+.eyes__content > a{
+    display: block;
+    width: 114px;
+    padding: 11px 0;
+    margin-top: 25px;
+    background: #FFD063;
+    border-radius: 4px;
+    border: 1px solid #FFD063;
+    font-family: 'Work Sans';
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: #013A4C;
+    transition: all 0.5s linear;
+}
+.eyes__content > a:hover{
+    background-color: transparent;
+    color: #fff;
+}

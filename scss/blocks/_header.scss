@@ -1,0 +1,105 @@
+.site-header{
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    padding: 23px 0 26px 0;
+    z-index: 1;
+    box-shadow: 1px 0 2px #999;
+}
+.header{
+    @include center(none);
+}
+.header__logo{
+    padding-left: 48px;
+}
+.header__list{
+    margin-left: 452px;
+    @include center(none);
+}
+.header__item{
+    position: relative;
+}
+.header__item + .header__item{
+    margin-left: 62px;
+}
+.header__link{
+    font-family: 'Work Sans' , sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #013A4C;
+    transition: all 0.5s linear;
+}
+.header__link:hover{
+    color: #FFD063;
+}
+.header__link::after{
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    left: 50%;
+    bottom: -2px;
+    background-color: #FFD063;
+    transition: all 0.5s linear;
+}
+.header__link::before{
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    right: 50%;
+    bottom: -2px;
+    background-color: #FFD063;
+    transition: all 0.5s linear;
+}
+.header__link:hover::after , 
+.header__link:hover::before{
+    width: 50%;
+}
+.header__contact{
+    margin-left: 48px;
+    @include center(none);
+}
+.header__contact-link:nth-child(1){
+    display: block;
+    width: 114px;
+    background-color: #FFD063;
+    border: 1px solid #FFD063;
+    border-radius: 4px;
+    padding: 11px 0;
+    text-align: center;
+    font-family: 'Work Sans' , sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #013A4C;
+    transition: all 0.5s linear;
+}
+.header__contact-link:nth-child(1):hover{
+    background-color: transparent;
+    color: #FFD063;
+}
+.header__contact-link:nth-child(2){
+    display: block;
+    width: 75px;
+    padding: 11px 0;
+    margin-left: 8px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #013A4C;
+    font-family: 'Work Sans' , sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: #013A4C;
+    transition: all 0.5s linear;
+}
+.header__contact-link:nth-child(2):hover{
+    background-color: #013A4C;
+    color: #fff;
+}
+.header__contact-link:nth-child(3){
+    margin-left: 50px;
+}

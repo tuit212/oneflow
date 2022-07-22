@@ -1,0 +1,18 @@
+.companies-section{
+    padding: 80px 0 100px 0;
+    background-color: #013A4C;
+}
+.companies__title{
+    font-weight: 400;
+    line-height: 38px;
+    font-size: 25px;
+    letter-spacing: 0.7px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.companies__list{
+    @include center(space-between);
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 24px;
+}

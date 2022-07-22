@@ -1,0 +1,67 @@
+.card-section{
+    padding: 130px 0 330px 0;
+}
+.card__top > h2{
+    font-weight: 400;
+    line-height: 54px;
+    font-size: 48px;
+    letter-spacing: 0.4px;
+    color: #013A4C;
+}
+.card__list{
+    margin-top: 57px;
+    @include center(space-between);
+}
+.card__item{
+    width: 30%;
+    padding: 65px 35px;
+    border: 1px solid #D6DFE2;
+    border-radius: 8px;
+    transition: all 0.5s linear;
+}
+.card__item:hover{
+    box-shadow: 1px 2px 5px #333;
+    background-color: #999;
+    color: #fff;
+    border: 1px solid #999;
+    transform:  scale(1.03);
+}
+.card__item > p{
+    font-family: 'Work Sans' , sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #013A4C;
+    transition: all 0.5s linear;
+}
+.card__item > span{
+    display: block;
+    margin: 18px 0 100px 0;
+    font-family: 'Work Sans' , sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #89285B;
+    transition: all 0.5s linear
+}
+.card__item-box{
+    @include center(none);
+}
+.card__box-content{
+    margin-left: 16px;
+    width: 147px;
+}
+.card__box-content > p{
+    transition: all 0.5s linear;
+    font-family: 'Work Sans' ,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #013A4C;
+}
+.card__item:hover  p{
+    color: #fff;
+}
+.card__item:hover span{
+    color: #fff;
+}
